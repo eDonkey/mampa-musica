@@ -86,7 +86,7 @@
     <section id="about">
       <div class="container">
         <div class="row about-container">
-
+<!--
           <div class="col-lg-6 content order-lg-1 order-2">
             <h2 class="title">Few Words About Us</h2>
             <p>
@@ -112,7 +112,7 @@
             </div>
 
           </div>
-
+-->
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
         </div>
 
