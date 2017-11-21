@@ -22,11 +22,19 @@
     <script src="../js/nicEdit/nicBBCode/nicBBCode.js" type="text/javascript"></script>
     <script type="text/javascript">
     bkLib.onDomLoaded(function() {
-      nicEditors.allTextAreas();
-      new nicEditor({fullPanel : true, onSave : function(content, id, instance) {
-        alert('save button clicked for element '+id+' = '+content);
-      } }).panelInstance('myArea2');
+      nicEditors.allTextAreas()
     });
+    </script>
+    <script type="text/javascript">
+
+
+        bkLib.onDomLoaded(function(){
+          new nicEditor({fullPanel : true, onSave : function(content, id, instance) {
+            alert('save button clicked for element '+id+' = '+content);
+          } }).panelInstance('myArea2');
+        });
+
+
     </script>
   </head>
   <body>
