@@ -1,16 +1,14 @@
 <?php
-if (isset($_POST['area3'])) {
-  die(print_r($_POST['area3'], true));
-}
-/*if (isset($_POST)){
-   if ($_POST['submit'] == "Save Text to Server"  && !empty($_POST['area3'])) {
+if (isset($_POST)){
+   if (!empty($_POST['area3'])) {
         //Save File
         $file = fopen("news.html","r+");
         $text = $_POST["area3"];
         file_put_contents($file, $text);
         fclose($file);
+        echo "File saved";
     }
-}*/
+}
 ?>
 <html>
   <head>
