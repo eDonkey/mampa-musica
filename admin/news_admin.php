@@ -32,7 +32,9 @@
     <div id="sample">
       <h4>Third Textarea</h4>
       <textarea name="area3" style="width: 900px; height: 300px;">
-	HTML <b>content</b> <i>default</i> in textarea updateState
+        <?php
+        echo file_get_contents('news.html');
+        ?>
       </textarea>
     </div>
   </body>
