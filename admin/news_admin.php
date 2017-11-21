@@ -21,15 +21,13 @@
     <script src="../js/nicEdit/nicXHTML/nicXHTML.js" type="text/javascript"></script>
     <script src="../js/nicEdit/nicBBCode/nicBBCode.js" type="text/javascript"></script>
     <script type="text/javascript">
-    bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
+    bkLib.onDomLoaded(function() {
+      nicEditors.allTextAreas();
+      new nicEditor({fullPanel : true, onSave : function(content, id, instance) {
+        alert('save button clicked for element '+id+' = '+content);
+      } }).panelInstance('myArea2');
+    });
     </script>
-    <script>
-function Save()
-{
-var edit = new nicEditors.allTextAreas('submenu_name');
-var name = edit.getContent();
-}
-</script>
   </head>
   <body>
     <div id="menu"></div>
