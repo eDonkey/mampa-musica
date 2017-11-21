@@ -25,17 +25,6 @@
       nicEditors.allTextAreas()
     });
     </script>
-    <script type="text/javascript">
-
-
-        bkLib.onDomLoaded(function(){
-          new nicEditor({fullPanel : true, onSave : function(content, id, instance) {
-            alert('save button clicked for element '+id+' = '+content);
-          } }).panelInstance('myArea2');
-        });
-
-
-    </script>
   </head>
   <body>
     <div id="menu"></div>
