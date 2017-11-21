@@ -5,7 +5,7 @@ if (is_writeable($newsfile)) {
 } else {
   echo "NO";
 }
-$handle = fopen(newsfile, 'w') or die('Cannot open file:  '.$newsfile);
+$handle = fopen($newsfile, 'a+') or die('Cannot open file:  '.$newsfile);
 /*if (isset($_POST)){
    if (!empty($_POST['area3'])) {
         //Save File
