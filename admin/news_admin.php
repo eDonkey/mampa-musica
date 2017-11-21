@@ -8,7 +8,7 @@ if (is_writeable($newsfile)) {
 
 if (isset($_POST)){
    if (!empty($_POST['area3'])) {
-     $handle = fopen($newsfile, 'a+') or die('Cannot open file:  '.$newsfile);
+     $handle = fopen($newsfile, 'w') or die('Cannot open file:  '.$newsfile);
      $data = $_POST['area3'];
      fwrite($handle, $data) or die('error al escribir');
     }
