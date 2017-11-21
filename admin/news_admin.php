@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Demo 1 : Convert All Textareas</title>
-    <script type="text/javascript" src="../js/nicedit/nicEdit.js"></script>
+    <script type="text/javascript" src="../js/nicEdit/nicEdit.js"></script>
     <script type="text/javascript">
     bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
     </script>
