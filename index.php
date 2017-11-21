@@ -86,9 +86,9 @@
     <section id="about">
       <div class="container">
         <div class="row about-container">
-      <iframe src="news.html" frameborder="1"> </iframe>
-          <div class="col-lg-6 content order-lg-1 order-2">
 
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <iframe src="news.html" frameborder="1"> </iframe>
 <!--
             <h2 class="title">Few Words About Us</h2>
             <p>
@@ -112,12 +112,11 @@
               <h4 class="title"><a href="">Dolor Sitema</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
-            <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
-
 -->
           </div>
-</div>
 
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+        </div>
 
       </div>
     </section><!-- #about -->
