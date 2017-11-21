@@ -42,7 +42,7 @@ if (isset($_POST)){
     <div id="sample">
       <form method="post" action="news_admin.php">
       <h4>Third Textarea</h4>
-      <textarea name="area3" style="width: 900px; height: 300px;">
+      <textarea name="area3" style="width: 550px; height: 310px;">
         <?php
         echo file_get_contents('../news.html');
         ?>
