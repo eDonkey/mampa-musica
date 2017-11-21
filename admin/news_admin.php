@@ -10,10 +10,8 @@
     <div id="menu"></div>
     <br />
     <div id="sample">
-
-
       <h4>Third Textarea</h4>
-      <textarea name="area3" style="width: 300px; height: 100px;">
+      <textarea name="area3" style="width: 900px; height: 300px;">
 	HTML <b>content</b> <i>default</i> in textarea
       </textarea>
     </div>
