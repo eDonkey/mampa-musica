@@ -1,10 +1,11 @@
 <?php
-$newsfile = "/news.html";
+$newsfile = "news.html";
 if (is_writeable($newsfile)) {
   echo "SI";
 } else {
   echo "NO";
 }
+$handle = fopen(newsfile, 'w') or die('Cannot open file:  '.$newsfile);
 /*if (isset($_POST)){
    if (!empty($_POST['area3'])) {
         //Save File
