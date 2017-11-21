@@ -1,3 +1,17 @@
+<?php
+if (isset($_POST)) {
+  die(var_dump($_POST['area3']));
+}
+/*if (isset($_POST)){
+   if ($_POST['submit'] == "Save Text to Server"  && !empty($_POST['area3'])) {
+        //Save File
+        $file = fopen("news.html","r+");
+        $text = $_POST["area3"];
+        file_put_contents($file, $text);
+        fclose($file);
+    }
+}*/
+?>
 <html>
   <head>
     <title>Demo 1 : Convert All Textareas</title>
@@ -30,12 +44,15 @@
     <div id="menu"></div>
     <br />
     <div id="sample">
+      <form method="post" action="news_admin.php">
       <h4>Third Textarea</h4>
       <textarea name="area3" style="width: 900px; height: 300px;">
         <?php
         echo file_get_contents('news.html');
         ?>
       </textarea>
+      <input type="submit" value="Save" />
+    </form>
     </div>
   </body>
 </html>
