@@ -88,7 +88,7 @@
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
-            <iframe src="news.html" frameborder="1" width="200" height="200"> </iframe>
+            <iframe src="news.html" frameborder="0" width="550" height="310" scrolling="auto"> </iframe>
 <!--
             <h2 class="title">Few Words About Us</h2>
             <p>
