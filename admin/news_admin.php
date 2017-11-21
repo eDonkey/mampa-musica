@@ -1,5 +1,5 @@
 <?php
-$newsfile = "news.html";
+$newsfile = "../news.html";
 if (isset($_POST)){
    if (!empty($_POST['area3'])) {
      $handle = fopen($newsfile, 'w') or die('Cannot open file:  '.$newsfile);
@@ -44,7 +44,7 @@ if (isset($_POST)){
       <h4>Third Textarea</h4>
       <textarea name="area3" style="width: 900px; height: 300px;">
         <?php
-        echo file_get_contents('news.html');
+        echo file_get_contents('../news.html');
         ?>
       </textarea>
       <input type="submit" value="Save" />
