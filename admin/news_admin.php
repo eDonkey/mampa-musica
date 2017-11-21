@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST)) {
+if (isset($_POST['area3'])) {
   die(var_dump($_POST['area3']));
 }
 /*if (isset($_POST)){
