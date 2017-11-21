@@ -1,11 +1,5 @@
 <?php
 $newsfile = "news.html";
-if (is_writeable($newsfile)) {
-  echo "SI";
-} else {
-  echo "NO";
-}
-
 if (isset($_POST)){
    if (!empty($_POST['area3'])) {
      $handle = fopen($newsfile, 'w') or die('Cannot open file:  '.$newsfile);
@@ -16,7 +10,7 @@ if (isset($_POST)){
 ?>
 <html>
   <head>
-    <title>Demo 1 : Convert All Textareas</title>
+    <title>Editor de noticias</title>
     <script type="text/javascript" src="http://js.nicedit.com/nicEdit-latest.js"></script>
     <script src="../js/nicEdit/nicCore/bkLib.js" type="text/javascript"></script>
     <script src="../js/nicEdit/nicCore/nicConfig.js" type="text/javascript"></script>
