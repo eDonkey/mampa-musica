@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['area3'])) {
-  die(var_dump($_POST['area3']));
+  die(print_r($_POST['area3'], true));
 }
 /*if (isset($_POST)){
    if ($_POST['submit'] == "Save Text to Server"  && !empty($_POST['area3'])) {
