@@ -2,7 +2,7 @@
 if (isset($_POST)){
    if (!empty($_POST['area3'])) {
         //Save File
-        $file = fopen("news.html","r+");
+        $file = fopen("news.html","r+w");
         $text = $_POST["area3"];
         if (file_put_contents($file, $text)) {
           echo "OK";
