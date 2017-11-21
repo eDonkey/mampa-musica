@@ -4,9 +4,13 @@ if (isset($_POST)){
         //Save File
         $file = fopen("news.html","r+");
         $text = $_POST["area3"];
-        file_put_contents($file, $text);
+        if (file_put_contents($file, $text)) {
+          echo "OK";
+          fclose($file);
+        } else {
+          echo "Writing error";
+        }
         fclose($file);
-        echo "File saved";
     }
 }
 ?>
