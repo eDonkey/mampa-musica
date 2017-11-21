@@ -30,7 +30,7 @@
     <div id="sample">
       <h4>Third Textarea</h4>
       <textarea name="area3" style="width: 900px; height: 300px;">
-	HTML <b>content</b> <i>default</i> in textarea
+	HTML <b>content</b> <i>default</i> in textarea updateState
       </textarea>
     </div>
   </body>
