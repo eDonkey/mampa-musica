@@ -1,5 +1,11 @@
 <?php
-if (isset($_POST)){
+$newsfile = "/news.html";
+if (is_writeable($newsfile)) {
+  echo "SI";
+} else {
+  echo "NO";
+}
+/*if (isset($_POST)){
    if (!empty($_POST['area3'])) {
         //Save File
         $file = fopen("news.html","w");
@@ -13,7 +19,7 @@ if (isset($_POST)){
         }
         fclose($file);
     }
-}
+}*/
 ?>
 <html>
   <head>
