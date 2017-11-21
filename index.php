@@ -86,9 +86,9 @@
     <section id="about">
       <div class="container">
         <div class="row about-container">
-
+      <iframe src="news.html" frameborder="1"> </iframe>
           <div class="col-lg-6 content order-lg-1 order-2">
-            <iframe src="news.html" frameborder="1"> </iframe>
+
 <!--
             <h2 class="title">Few Words About Us</h2>
             <p>
