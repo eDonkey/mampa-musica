@@ -86,7 +86,7 @@
     <section id="about">
       <div class="container">
         <div class="row about-container">
-            <iframe src="news.html" frameborder="0"> </iframe>
+            <iframe src="news.html" frameborder="1"> </iframe>
           <div class="col-lg-6 content order-lg-1 order-2">
 
 <!--
