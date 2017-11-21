@@ -23,6 +23,13 @@
     <script type="text/javascript">
     bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
     </script>
+    <script>
+function Save()
+{
+var edit = new nicEditors.allTextAreas('submenu_name');
+var name = edit.getContent();
+}
+</script>
   </head>
   <body>
     <div id="menu"></div>
