@@ -5,7 +5,6 @@ if(isset($_SESSION['username'])) {
   header("Location: admin.php");
 }
 $time = time();
-die(var_dump($time));
 $username = $_POST['form-username'];
 $password = hash('sha256', $_POST['form-password']);
 $query = "SELECT * FROM user WHERE email='$username' AND password='$password' LIMIT 1";
@@ -18,6 +17,8 @@ if (!$link) {
 }
 $result = mysqli_query($link, $query);
 if (mysqli_num_rows($result) == 1) {
+  $lastloginquery = "UPDATE user SET last_login=$time WHERE email='$username' AND password='$password' LIMIT 1";
+  die(var_dump($lastloginquery));
   $row = mysqli_fetch_array($result);
   $_SESSION['username'] = $row['email'];
   $_SESSION['name'] = $row['name'];
