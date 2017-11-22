@@ -39,10 +39,10 @@ if (isset($_POST)){
   <body>
     <div id="menu"></div>
     <br />
-    <div id="sample" align="center">
+    <div id="sample">
       <form method="post" action="news_admin.php">
-      <h4>Third Textarea</h4>
-      <textarea name="area3" style="width: 550px; height: 310px;border:2px solid black;">
+      <h2 align="center">Editor de Noticias</h2>
+      <textarea align="center" name="area3" style="width: 550px; height: 310px;border:2px solid black;">
         <?php
         echo file_get_contents('../news.html');
         ?>
