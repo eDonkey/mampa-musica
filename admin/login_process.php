@@ -8,6 +8,7 @@ $time = time();
 $username = $_POST['form-username'];
 $password = hash('sha256', $_POST['form-password']);
 $query = "SELECT * FROM user WHERE email='$username' AND password='$password' LIMIT 1";
+die(var_dump($query));
 $link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
