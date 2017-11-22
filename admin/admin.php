@@ -14,11 +14,11 @@ if(!isset($_SESSION['username'])) {
   </head>
   <body>
     <div id="admin-top-menu" align="center">
-      Inicio - <a href="news_admin.php" target="admin_page_loader">Noticias</a>
+      Inicio - <a href="news_admin.php" target="adminframe">Noticias</a>
     </div>
     <br /><br />
     <div id="admin-body-loader" align="center">
-      <iframe id="admin-page-loader" name="admin-page-loader" width="1280px" height="720px" border="2"></iframe>
+      <iframe name="adminframe" width="1280px" height="720px" border="2"></iframe>
     </div>
   </body>
 </html>
