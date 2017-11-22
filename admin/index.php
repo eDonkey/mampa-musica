@@ -63,8 +63,8 @@ if(isset($_SESSION['username'])) {
                             <div class="form-bottom">
 			                    <form role="form" action="login_process.php" method="post" class="login-form">
 			                    	<div class="form-group">
-			                    		<label class="sr-only" for="form-username">Usuario</label>
-			                        	<input type="text" name="form-username" placeholder="Usuario..." class="form-username form-control" id="form-username">
+			                    		<label class="sr-only" for="form-username">E-Mail</label>
+			                        	<input type="text" name="form-username" placeholder="E-Mail..." class="form-username form-control" id="form-username">
 			                        </div>
 			                        <div class="form-group">
 			                        	<label class="sr-only" for="form-password">Password</label>
