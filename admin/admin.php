@@ -13,12 +13,12 @@ if(!isset($_SESSION['username'])) {
     <title>Mampa - Musica | Admin Dashboard</title>
   </head>
   <body>
-    <div id="admin-top-menu">
-      Inicio - Noticias
+    <div id="admin-top-menu" align="center">
+      Inicio - <a href="news_admin.php" target="admin_page_loader">Noticias</a>
     </div>
     <br /><br />
-    <div id="admin-body-loader">
-      <iframe id="admin-page-loader" name="admin-page-loader" width="500px" height="500px" border="2"></iframe>
+    <div id="admin-body-loader" align="center">
+      <iframe id="admin-page-loader" name="admin-page-loader" width="1280px" height="720px" border="2"></iframe>
     </div>
   </body>
 </html>
