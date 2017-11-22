@@ -21,7 +21,7 @@ if(!isset($_SESSION['username'])) {
       <iframe name="adminframe" width="1280px" height="720px" border="2"></iframe>
     </div>
     <div style="position:fixed;right:0;bottom:0;">
-      <a href="logout.php"><img src="imgs/logout.png" border="0" /></a>
+      <a href="logout.php"><img src="imgs/logout.png" border="0" width="64px" height="64px" /></a>
     </div>
   </body>
 </html>
