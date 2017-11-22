@@ -1,12 +1,19 @@
 <?php
-$newsfile = "../news.html";
-if (isset($_POST)){
-   if (!empty($_POST['area3'])) {
-     $handle = fopen($newsfile, 'w') or die('Cannot open file:  '.$newsfile);
-     $data = $_POST['area3'];
-     fwrite($handle, $data) or die('error al escribir');
+session_start();
+if(!isset($_SESSION['username'])) {
+  header("location: index.php");
+  exit;
+} else {
+  //echo "hola";
+  //die(var_dump($_SESSION));
+  $newsfile = "../news.html";
+  if (isset($_POST)){
+    if (!empty($_POST['area3'])) {
+      $handle = fopen($newsfile, 'w') or die('Cannot open file:  '.$newsfile);
+      $data = $_POST['area3'];
+      fwrite($handle, $data) or die('error al escribir');
+      }
     }
-}
 ?>
 <html>
   <head>
@@ -53,3 +60,4 @@ if (isset($_POST)){
     </div>
   </body>
 </html>
+<?php } ?>
