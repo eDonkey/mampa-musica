@@ -20,6 +20,9 @@ if(!isset($_SESSION['username'])) {
     <div id="admin-body-loader" align="center">
       <iframe name="adminframe" width="1280px" height="720px" border="2"></iframe>
     </div>
+    <div style="position:fixed;right:0;bottom:0;">
+      <a href="logout.php"><img src="imgs/logout.png" border="0" /></a>
+    </div>
   </body>
 </html>
 <?php } ?>
