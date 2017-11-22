@@ -7,8 +7,8 @@ if(isset($_SESSION['username'])) {
 $time = time();
 $username = $_POST['form-username'];
 $password = hash('sha256', $_POST['form-password']);
-$query = "SELECT * FROM user WHERE email='$username' AND password='$password' LIMIT 1";
-die(var_dump($query));
+$query = "SELECT * FROM users WHERE email='$username' AND password='$password' LIMIT 1";
+//die(var_dump($query));
 $link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
@@ -18,7 +18,7 @@ if (!$link) {
 }
 $result = mysqli_query($link, $query);
 if (mysqli_num_rows($result) == 1) {
-  $lastloginquery = "UPDATE user SET last_login=$time WHERE email='$username' AND password='$password' LIMIT 1";
+  $lastloginquery = "UPDATE users SET last_login=$time WHERE email='$username' AND password='$password' LIMIT 1";
   die(var_dump($lastloginquery));
   $row = mysqli_fetch_array($result);
   $_SESSION['username'] = $row['email'];
