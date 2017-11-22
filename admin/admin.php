@@ -4,6 +4,7 @@ if(!isset($_SESSION['username'])) {
   header("location: index.php");
   exit;
 } else {
-  echo "$_SESSION['username']";
+  echo "hola";
+  die(var_dump($_SESSION));
 }
 ?>
