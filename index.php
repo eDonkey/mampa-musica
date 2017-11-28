@@ -1,5 +1,5 @@
 <?php
-include '../lib/mysql/basic.config.mysql.php';
+include 'lib/mysql/basic.config.mysql.php';
 $link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
