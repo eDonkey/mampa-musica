@@ -58,7 +58,7 @@ while ($row = mysqli_fetch_array($result)) {
             <td><?php echo $row['youtube_key']; ?></td>
             <td><a href="<?php echo $row['video']; ?>" target="_blank">>>LINK HERE<<</a></td>
             <td><img src="<?php echo $row['thumb']; ?>" width="84" height="47" /></td>
-            <td><a href="#"><img src="imgs/delete.png" border="0" width="12" height="12" /></a></td>
+            <td><a href="#"><img src="imgs/delete.png" border="0" width="24" height="24" /></a></td>
           </tr>
         <?php } ?>
       </tbody>
