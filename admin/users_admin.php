@@ -1,9 +1,19 @@
 <?php
+include '../lib/mysql/basic.config.mysql.php';
 session_start();
 if(!isset($_SESSION['username'])) {
   header("location: index.php");
   exit;
 } else {
+  $query = "SELECT * FROM users";
+  $link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+  if (!$link) {
+      echo "Error: Unable to connect to MySQL." . PHP_EOL;
+      echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
+      echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
+      exit;
+  }
+  $result = mysqli_query($link, $query);
 ?>
 <!DOCTYPE html>
 <html>
@@ -34,45 +44,18 @@ if(!isset($_SESSION['username'])) {
     <div class="tbl-content">
       <table cellpadding="0" cellspacing="0" border="0">
         <tbody>
+<?php
+while ($row = mysqli_fetch_array($result)) {
+  ?>
           <tr>
-
+            <td><?php echo $row['id']; ?></td>
+            <td><?php echo $row['name']; ?></td>
+            <td><?php echo $row['lastname']; ?></td>
+            <td><?php echo $row['email']; ?></td>
+            <td><?php echo $row['created_at']; ?></td>
+            <td><?php echo $row['last_login']; ?></td>
           </tr>
-          <tr>
-
-          </tr>
-          <tr>
-
-          </tr>
-          <tr>
-
-          </tr>
-          <tr>
-
-          </tr>
-        <tr>
-
-        </tr>
-        <tr>
-
-        </tr>
-        <tr>
-
-        </tr>
-        <tr>
-
-        </tr>
-        <tr>
-
-        </tr>
-        <tr>
-
-        </tr>
-        <tr>
-
-        </tr>
-        <tr>
-
-        </tr>
+        <?php } ?>
       </tbody>
     </table>
   </div>
