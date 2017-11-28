@@ -187,6 +187,7 @@ $result = mysqli_query($link, $videos);
               <p class="description"><a href="admin/open_video.php?url=<?php echo $row['video']; ?>&id=<?php echo $row['id']; ?>" target="_blank"><img src="<?php echo $row['thumb']; ?>" border="0" /></a></p>
             </div>
           </div>
+<?php } ?>
         </div>
 
       </div>
