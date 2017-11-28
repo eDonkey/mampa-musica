@@ -15,6 +15,6 @@ if (!$link) {
     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
     exit;
 }
-mysqli_query($link, $query) or die("Error executing delete sentense".mysqli_error($link));
+mysqli_query($link, $query) or die("Error executing delete sentense. ".mysqli_error($link));
 header("Location: videos_admin.php?operation=video_del&result=success");
 ?>
