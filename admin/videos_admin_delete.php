@@ -7,6 +7,7 @@ if(!isset($_SESSION['username'])) {
 }
 $id = $_GET['id'];
 $query = "DELETE FROM videos WHERE id='$id' LIMIT 1";
+die(var_dump($query));
 $link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
