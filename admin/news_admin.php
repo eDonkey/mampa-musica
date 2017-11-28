@@ -43,7 +43,7 @@ if(!isset($_SESSION['username'])) {
     });
     </script>
   </head>
-  <body>
+  <body style="background:white;">
     <div id="menu"></div>
     <br />
     <div id="sample">
