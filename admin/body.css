@@ -16,3 +16,9 @@ body {
   font-weight: bold;
   margin-top: 50px;
 }
+a:visited {
+  border:none;
+  outline:none;
+  text-decoration:none;
+  color:inherit;
+}
