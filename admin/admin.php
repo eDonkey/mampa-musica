@@ -11,8 +11,11 @@ if(!isset($_SESSION['username'])) {
 <html lang="en">
   <head>
     <title>Mampa - Musica | Admin Dashboard</title>
+          <link rel="stylesheet" href="body.css">
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
   </head>
   <body>
+    <div id="gradient" />
     <div id="admin-top-menu" align="center">
       Inicio - <a href="news_admin.php" target="adminframe">Noticias</a> - <a href="users_admin.php" target="adminframe">Usuarios</a>
     </div>
@@ -24,5 +27,6 @@ if(!isset($_SESSION['username'])) {
       <a href="logout.php"><img src="imgs/logout.png" border="0" width="64px" height="64px" /></a>
     </div>
   </body>
+  <script  src="js/body.js"></script>
 </html>
 <?php } ?>
