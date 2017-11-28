@@ -16,7 +16,7 @@ if(!isset($_SESSION['username'])) {
   </head>
   <body>
     <div id="gradient" />
-    <div id="admin-top-menu" align="center">
+    <div id="admin-top-menu" align="center"><br /><br />
       Inicio - <a href="news_admin.php" target="adminframe">Noticias</a> - <a href="users_admin.php" target="adminframe">Usuarios</a>
     </div>
     <br /><br />
