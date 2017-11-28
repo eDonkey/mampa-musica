@@ -3,6 +3,9 @@ include '../lib/mysql/basic.config.mysql.php';
 if ($_GET['operation'] == "video_add" AND $_GET['result'] == "success") {
   echo "Video added correctly to our DB";
 }
+if ($_GET['operation'] == "video_del" AND $_GET['result'] == "success") {
+  echo "Video deleted correctly from our DB";
+}
 session_start();
 if(!isset($_SESSION['username'])) {
   header("location: index.php");
@@ -58,7 +61,7 @@ while ($row = mysqli_fetch_array($result)) {
             <td><?php echo $row['youtube_key']; ?></td>
             <td><a href="<?php echo $row['video']; ?>" target="_blank">>>LINK HERE<<</a></td>
             <td><img src="<?php echo $row['thumb']; ?>" width="84" height="47" /></td>
-            <td><a href="#"><img src="imgs/delete.png" border="0" width="24" height="24" /></a></td>
+            <td><a href="videos_admin_delete.php?id=<?php echo $row['id']; ?>"><img src="imgs/delete.png" border="0" width="24" height="24" /></a></td>
           </tr>
         <?php } ?>
       </tbody>
