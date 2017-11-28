@@ -1,6 +1,6 @@
 <?php
 include '../lib/mysql/basic.config.mysql.php';
-$subject = $_GET['url'];
+$subject = $_POST['video_url'];
 $search = 'https://www.youtube.com/watch?v=' ;
 $trimmed = str_replace($search, '', $subject) ;
 $thumb = "https://i.ytimg.com/vi/".$trimmed."/hqdefault.jpg";
