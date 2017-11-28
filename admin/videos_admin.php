@@ -42,6 +42,7 @@ $result = mysqli_query($link, $query);
             <th>Youtube Key</th>
             <th>Video</th>
             <th>Imagen</th>
+            <th>Acciones</th>
           </tr>
         </thead>
       </table>
@@ -55,8 +56,9 @@ while ($row = mysqli_fetch_array($result)) {
           <tr>
             <td><?php echo $row['id']; ?></td>
             <td><?php echo $row['youtube_key']; ?></td>
-            <td><a href="<?php echo $row['video']; ?>">>>LINK HERE<<</a></td>
-            <td><img src="<?php echo $row['thumb']; ?>" width="168" height="94" /></td>
+            <td><a href="<?php echo $row['video']; ?>" target="_blank">>>LINK HERE<<</a></td>
+            <td><img src="<?php echo $row['thumb']; ?>" width="84" height="47" /></td>
+            <td><a href="#"><img src="imgs/delete.png" border="0" /></a></td>
           </tr>
         <?php } ?>
       </tbody>
