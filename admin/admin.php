@@ -15,7 +15,7 @@ if(!isset($_SESSION['username'])) {
           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
   </head>
   <body>
-    <div id="gradient" />
+    <!--<div id="gradient" /> -->
     <div id="admin-top-menu" align="center"><br /><br />
       Inicio -- <a href="news_admin.php" target="adminframe">Noticias</a> -- <a href="users_admin.php" target="adminframe">Usuarios</a>
     </div>
@@ -28,5 +28,6 @@ if(!isset($_SESSION['username'])) {
     </div>
   </body>
   <script  src="js/body.js"></script>
+          <script src="assets/js/jquery.backstretch.min.js"></script>
 </html>
 <?php } ?>
