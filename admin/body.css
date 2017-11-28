@@ -22,3 +22,9 @@ a:visited {
   text-decoration:none;
   color:inherit;
 }
+a:link {
+  border:none;
+  outline:none;
+  text-decoration:none;
+  color:inherit;
+}
