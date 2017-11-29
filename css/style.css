@@ -573,13 +573,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Services Section
 --------------------------------*/
-#services {
+#videos {
   background: #fff;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
 
-#services .box {
+#videos .box {
   padding: 25px 20px;
   margin-bottom: 50px;
   text-align: center;
@@ -589,7 +589,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fafafa;
 }
 
-#services .icon {
+#videos .icon {
   position: absolute;
   top: -36px;
   left: calc(50% - 36px);
@@ -599,7 +599,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 6px solid #fff;
 }
 
-#services .icon a {
+#videos .icon a {
   display: inline-block;
   background: #2dc997;
   border: 2px solid #2dc997;
@@ -608,32 +608,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
 }
 
-#services .icon i {
+#videos .icon i {
   color: #fff;
   font-size: 24px;
 }
 
-#services .box:hover .icon i {
+#videos .box:hover .icon i {
   color: #2dc997;
 }
 
-#services .box:hover .icon a {
+#videos .box:hover .icon a {
   color: #2dc997;
   background: #fff;
 }
 
-#services .title {
+#videos .title {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 
-#services .title a {
+#videos .title a {
   color: #111;
 }
 
-#services .description {
+#videos .description {
   font-size: 14px;
   line-height: 24px;
 }
