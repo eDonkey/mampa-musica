@@ -177,8 +177,8 @@ $result = mysqli_query($link, $videos);
     <section id="services">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">Services</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title">Videos</h3>
+          <p class="section-description">Aqui podran ver una lista seleccionada de nuestros videos.<br />Para ver mas, visiten nuestro <a href="https://www.youtube.com/channel/UCGpVIjK5wAH-hZT-gCwSPjQ" target="_blank">Canal de Youtube</a></p>
         </div>
         <div class="row">
 <?php while ($row = mysqli_fetch_array($result)) { ?>
