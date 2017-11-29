@@ -182,7 +182,7 @@ $result = mysqli_query($link, $videos);
         </div>
         <div class="row">
 <?php while ($row = mysqli_fetch_array($result)) { ?>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
               <p class="description"><a href="admin/open_video.php?url=<?php echo $row['video']; ?>&id=<?php echo $row['id']; ?>" target="_blank"><img src="<?php echo $row['thumb']; ?>" border="0" width="262" height="150" /></a></p>
             </div>
