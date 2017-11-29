@@ -61,7 +61,7 @@ if (!$link) {
           <li class="menu-active"><a href="#hero">Inicio</a></li>
           <li><a href="#team">Familia</a></li>
           <li><a href="#about">Noticias</a></li>
-          <li><a href="#videos">Calendario</a></li>
+          <li><a href="#videos">Videos</a></li>
           <li class="menu-has-children"><a href="">Multimedia</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -171,7 +171,7 @@ if (!$link) {
       Services Section
     ============================-->
     <?php
-$videos = "SELECT id, video, thumb, mm_visible FROM videos LIMIT 6";
+$videos = "SELECT id, video, thumb, mm_visible FROM videos LIMIT 4";
 $result = mysqli_query($link, $videos);
     ?>
     <section id="videos">
