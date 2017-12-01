@@ -7,7 +7,7 @@ if (!$link) {
     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
     exit;
 }
-mysqli_set_charset($link, "utf8"); 
+mysqli_set_charset($link, "utf8");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -142,8 +142,8 @@ mysqli_set_charset($link, "utf8");
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
         <div class="row counters">
-
-  				<div class="col-lg-3 col-6 text-center">
+<a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/edk2007/albums/72157673008022121" title="Oldies"><img src="https://farm2.staticflickr.com/1148/779629374_ba4e0fdd35_z.jpg?zz&#x3D;1" width="640" height="480" alt="Oldies"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  			<!--	<div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">232</span>
             <p>Clients</p>
   				</div>
@@ -161,7 +161,7 @@ mysqli_set_charset($link, "utf8");
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">15</span>
             <p>Hard Workers</p>
-  				</div>
+  				</div>-->
 
   			</div>
 
@@ -169,7 +169,7 @@ mysqli_set_charset($link, "utf8");
     </section><!-- #facts -->
 
     <!--==========================
-      Services Section
+Videos Section
     ============================-->
     <?php
 $videos = "SELECT id, video, thumb, title, mm_visible FROM videos WHERE mm_visible=1";
