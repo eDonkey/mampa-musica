@@ -7,6 +7,7 @@ if (!$link) {
     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
     exit;
 }
+mysqli_set_charset($link, "utf8"); 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -184,8 +185,8 @@ $result = mysqli_query($link, $videos);
 <?php while ($row = mysqli_fetch_array($result)) { ?>
           <div class="col-lg-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <h4 class="title"><a href="admin/open_video.php?url=<?php echo $row['video']; ?>&id=<?php echo $row['id']; ?>" target="_blank"><?php echo $row['title']; ?></a></h4>
-              <p class="description"><a href="admin/open_video.php?url=<?php echo $row['video']; ?>&id=<?php echo $row['id']; ?>" target="_blank"><img src="<?php echo $row['thumb']; ?>" border="0" width="262" height="150" /></a></p>
+              <h4 class="title"><a href="open_video.php?url=<?php echo $row['video']; ?>&id=<?php echo $row['id']; ?>" target="_blank"><?php echo $row['title']; ?></a></h4>
+              <p class="description"><a href="open_video.php?url=<?php echo $row['video']; ?>&id=<?php echo $row['id']; ?>" target="_blank"><img src="<?php echo $row['thumb']; ?>" border="0" width="262" height="150" /></a></p>
             </div>
           </div>
 <?php } ?>
