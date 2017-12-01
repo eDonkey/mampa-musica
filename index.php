@@ -142,7 +142,7 @@ mysqli_set_charset($link, "utf8");
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
         <div class="row counters">
-<a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/edk2007/albums/72157673008022121" title="Oldies"><img src="https://farm2.staticflickr.com/1148/779629374_ba4e0fdd35_z.jpg?zz&#x3D;1" width="640" height="480" alt="Oldies"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/edk2007/albums/72157673008022121" title="Oldies"><img src="https://farm2.staticflickr.com/1148/779629374_ba4e0fdd35_m.jpg" width="240" height="180" alt="Oldies"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   			<!--	<div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">232</span>
             <p>Clients</p>
