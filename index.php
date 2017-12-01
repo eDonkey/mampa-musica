@@ -147,11 +147,11 @@ mysqli_set_charset($link, "utf8");
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/edk2007/albums/72157673008022121" title="Oldies"><img src="https://farm2.staticflickr.com/1148/779629374_ba4e0fdd35_m.jpg" width="240" height="180" alt="Oldies"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   				</div>
 
-        <!--  <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">521</span>
-            <p>Projects</p>
-  				</div>
+        <div class="col-lg-3 col-6 text-center">
+        <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/edk2007/albums/72157690352164365" title="Oldies"><img src="https://farm2.staticflickr.com/1148/779629374_ba4e0fdd35_z.jpg?zz&#x3D;1" width="240" height="180" alt="Oldies"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+  				</div>
+<!--
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">1,463</span>
             <p>Hours Of Support</p>
