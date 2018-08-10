@@ -1,4 +1,5 @@
 <?php
+$currentUtime = time();
 include 'lib/mysql/basic.config.mysql.php';
 $link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$link) {
@@ -51,7 +52,8 @@ mysqli_set_charset($link, "utf8");
   <header id="header">
       <div id="fechas">
 <?php
-          echo time();
+$fechasQuery = "SELECT * FROM fechas WHERE start_showing <= $currentUtime AND end_showing >= $currentUtime LIMIT 1";
+echo $fechasQuery;
 ?>
           </div>
     <div class="container">
