@@ -50,8 +50,10 @@ mysqli_set_charset($link, "utf8");
   ============================-->
   <header id="header">
       <div id="fechas">
-      Probando
-      </div>
+<?php
+          echo time();
+?>
+          </div>
     <div class="container">
 
       <div id="logo" class="pull-left">
