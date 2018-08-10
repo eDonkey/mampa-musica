@@ -65,10 +65,11 @@ while ($row = mysqli_fetch_array($result)) {
       <form method="post" action="">
         URL Del Evento (FB): <input type="text" name="event_url" id="event_url" /><br />
         Descripcion corta: <br />
-          <textarea name="event_desc" id="event_desc"></textarea><br />
-          Visible desde <input type="date" id="event_from" name="event_from" /> hasta <input type="date" name="event_to" id="event_to" /><br />
+          <textarea name="event_desc" id="event_desc" rows="20" cols="20v"></textarea><br />
+          Visible desde <input type="text" id="event_from" name="event_from" /> hasta <input type="text" name="event_to" id="event_to" /><br />
           <input type="submit" />
       </form>
+        Horario actual del servidor: <?php echo date('Y-m-d h:i:s'); ?>
     </div>
 </section>
   </body>
