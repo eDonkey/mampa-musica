@@ -52,7 +52,7 @@ while ($row = mysqli_fetch_array($result)) {
             <td><?php echo $row['text']; ?></td>
             <td><?php echo $row['url']; ?></td>
             <td><?php echo gmdate("Y-m-d - H:i:s", $row['start_showing']); ?></td>
-            <td><?php echo gmdate("Y-m-d - H:i:s", $row['end_showing']); ?></td>
+            <td><?php echo gmdate("Y-m-d - H:i:s   ", $row['end_showing']); ?></td>
             <td><a href="videos_admin_delete.php?id=<?php echo $row['id']; ?>"><img src="imgs/delete.png" border="0" width="24" height="24" /></a></td>
           </tr>
         <?php } ?>
@@ -60,6 +60,16 @@ while ($row = mysqli_fetch_array($result)) {
       </tbody>
     </table>
   </div>
+    <div align="center">
+        Agregar fecha <br /><br />
+      <form method="post" action="">
+        URL Del Evento (FB): <input type="text" name="event_url" id="event_url" /><br />
+        Descripcion corta: <br />
+          <textarea name="event_desc" id="event_desc"></textarea><br />
+          Visible desde <input type="datetime" id="event_from" name="event_from" /> hasta <input type="datetime" name="event_to" id="event_to" /><br />
+          <input type="submit" />
+      </form>
+    </div>
 </section>
   </body>
 </html>
