@@ -73,8 +73,8 @@ mysqli_set_charset($link, "utf8");
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
             </ul>
+        </li>
           <li><a href="#contact">Contact Us</a></li>
-          </li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
