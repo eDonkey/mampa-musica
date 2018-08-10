@@ -49,6 +49,9 @@ mysqli_set_charset($link, "utf8");
   Header
   ============================-->
   <header id="header">
+      <div id="fechas">
+      Probando
+      </div>
     <div class="container">
 
       <div id="logo" class="pull-left">
