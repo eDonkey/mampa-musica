@@ -56,7 +56,7 @@ $resultfechasQuery = mysqli_query($link, $fechasQuery);
 while ($row = mysqli_fetch_array($resultfechasQuery)) {
 ?>
       <a href="<?php echo $row['url']; ?>">
-        <div id="fechas">
+        <div class="fechas">
             <?php echo $row['text']; ?>
         </div>
       </a>
