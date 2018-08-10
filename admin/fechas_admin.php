@@ -51,8 +51,8 @@ while ($row = mysqli_fetch_array($result)) {
             <td><?php echo $row['id']; ?></td>
             <td><?php echo $row['text']; ?></td>
             <td><?php echo $row['url']; ?></td>
-            <td><?php echo gmdate("Y-m-d\TH:i:s\Z", $row['start_showing']); ?></td>
-            <td><?php echo gmdate("Y-m-d\TH:i:s\Z", $row['end_showing']); ?></td>
+            <td><?php echo gmdate("Y-m-d - H:i:s", $row['start_showing']); ?></td>
+            <td><?php echo gmdate("Y-m-d - H:i:s", $row['end_showing']); ?></td>
             <td><a href="videos_admin_delete.php?id=<?php echo $row['id']; ?>"><img src="imgs/delete.png" border="0" width="24" height="24" /></a></td>
           </tr>
         <?php } ?>
