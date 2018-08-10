@@ -50,12 +50,16 @@ mysqli_set_charset($link, "utf8");
   Header
   ============================-->
   <header id="header">
-      <div id="fechas">
 <?php
 $fechasQuery = "SELECT * FROM fechas WHERE start_showing <= $currentUtime AND end_showing >= $currentUtime LIMIT 1";
-echo $fechasQuery;
+$resultfechasQuery = mysqli_query($link, $fechasQuery);
+while ($row = mysqli_fetch_array($resultfechasQuery) {
 ?>
-          </div>
+      <a href="<?php echo $row['url']; ?>">
+        <div id="fechas">
+            <?php echo $row['text']; ?>
+        </div>
+      </a>
     <div class="container">
 
       <div id="logo" class="pull-left">
