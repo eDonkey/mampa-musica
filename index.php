@@ -60,6 +60,7 @@ while ($row = mysqli_fetch_array($resultfechasQuery) {
             <?php echo $row['text']; ?>
         </div>
       </a>
+    <?php } ?>
     <div class="container">
 
       <div id="logo" class="pull-left">
