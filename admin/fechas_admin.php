@@ -1,5 +1,8 @@
 <?php
 include '../lib/mysql/basic.config.mysql.php';
+if ($_GET['operation'] == "fecha_add" AND $_GET['result'] == "success") {
+  echo "Date added correctly to our DB";
+}
 session_start();
 if(!isset($_SESSION['username'])) {
   header("location: index.php");
@@ -35,7 +38,6 @@ $result = mysqli_query($link, $query);
             <th>URL Del Evento</th>
             <th>Visible desde</th>
             <th>Visible Hasta</th>
-            <th>Acciones</th>
           </tr>
         </thead>
       </table>
@@ -53,10 +55,8 @@ while ($row = mysqli_fetch_array($result)) {
             <td><?php echo $row['url']; ?></td>
             <td><?php echo gmdate("Y-m-d - H:i:s", $row['start_showing']); ?></td>
             <td><?php echo gmdate("Y-m-d - H:i:s   ", $row['end_showing']); ?></td>
-            <td><a href="videos_admin_delete.php?id=<?php echo $row['id']; ?>"><img src="imgs/delete.png" border="0" width="24" height="24" /></a></td>
           </tr>
         <?php } ?>
-
       </tbody>
     </table>
   </div>
@@ -66,9 +66,9 @@ while ($row = mysqli_fetch_array($result)) {
         URL Del Evento (FB): <input type="text" name="event_url" id="event_url" /><br />
         Descripcion corta: <br />
           <textarea name="event_desc" id="event_desc" rows="20" cols="20v"></textarea><br />
-          Visible desde <input type="text" id="event_from" name="event_from" /> hasta <input type="text" name="event_to" id="event_to" /><br />
+          Visible desde <input type="text" id="event_from" name="event_from" placeholder="Y-m-d h:i:s" /> hasta <input type="text" name="event_to" id="event_to" placeholder="Y-m-d h:i:s" /><br />
           <input type="submit" />
-      </form>
+      </form><br />
         Horario actual del servidor: <?php echo date('Y-m-d h:i:s'); ?>
     </div>
 </section>
