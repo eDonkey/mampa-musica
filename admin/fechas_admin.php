@@ -62,7 +62,7 @@ while ($row = mysqli_fetch_array($result)) {
   </div>
     <div align="center">
         Agregar fecha <br /><br />
-      <form method="post" action="">
+      <form method="post" action="fechas_admin_add.php">
         URL Del Evento (FB): <input type="text" name="event_url" id="event_url" /><br />
         Descripcion corta: <br />
           <textarea name="event_desc" id="event_desc" rows="20" cols="20v"></textarea><br />
