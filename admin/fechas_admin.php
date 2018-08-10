@@ -66,7 +66,7 @@ while ($row = mysqli_fetch_array($result)) {
         URL Del Evento (FB): <input type="text" name="event_url" id="event_url" /><br />
         Descripcion corta: <br />
           <textarea name="event_desc" id="event_desc"></textarea><br />
-          Visible desde <input type="datetime" id="event_from" name="event_from" /> hasta <input type="datetime" name="event_to" id="event_to" /><br />
+          Visible desde <input type="date" id="event_from" name="event_from" /> hasta <input type="date" name="event_to" id="event_to" /><br />
           <input type="submit" />
       </form>
     </div>
