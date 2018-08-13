@@ -18,6 +18,9 @@ if(!isset($_SESSION['username'])) {
     <!--<div id="gradient" /> -->
     <div id="admin-top-menu" align="center"><br /><br />
       Inicio -- <a href="news_admin.php" target="adminframe">Noticias</a> -- <a href="users_admin.php" target="adminframe">Usuarios</a> -- <a href="videos_admin.php" target="adminframe">Videos</a> -- <a href="fechas_admin.php" target="adminframe">Fechas</a>
+        <?php if ( $_SESSION['permissions'] >= '755' ) { ?>
+         -- <a href="" target="adminframe">Config</a>
+        <?php } ?>
     </div>
     <br /><br />
     <div id="admin-body-loader" align="center">
