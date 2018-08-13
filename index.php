@@ -57,8 +57,8 @@ while ($row = mysqli_fetch_array($resultfechasQuery)) {
 ?>
       <a href="<?php echo $row['url']; ?>">
         <div id="fechas">
-                    <span id='closebtn' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
             <div>
+                <span id='closebtn' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
             <?php echo $row['text']; ?>
             </div>
         </div>
