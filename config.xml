@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	useFlickr="false"
+	resizeOnImport="false"
+	indexPageName="galeria.php"
+
+>
+  <image imageURL="images/IMG_2457.jpg"
+	thumbURL="thumbs/IMG_2457.jpg"
+	linkURL="images/IMG_2457.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/axelwdoviak/Desktop/Mendoza '18/IMG_2457.JPG">
+    <title><![CDATA[IMG_2457]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_2458.jpg"
+	thumbURL="thumbs/IMG_2458.jpg"
+	linkURL="images/IMG_2458.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/axelwdoviak/Desktop/Mendoza '18/IMG_2458.JPG">
+    <title><![CDATA[IMG_2458]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_2459.jpg"
+	thumbURL="thumbs/IMG_2459.jpg"
+	linkURL="images/IMG_2459.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/axelwdoviak/Desktop/Mendoza '18/IMG_2459.JPG">
+    <title><![CDATA[IMG_2459]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_2460.jpg"
+	thumbURL="thumbs/IMG_2460.jpg"
+	linkURL="images/IMG_2460.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/axelwdoviak/Desktop/Mendoza '18/IMG_2460.JPG">
+    <title><![CDATA[IMG_2460]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_2461.jpg"
+	thumbURL="thumbs/IMG_2461.jpg"
+	linkURL="images/IMG_2461.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/axelwdoviak/Desktop/Mendoza '18/IMG_2461.JPG">
+    <title><![CDATA[IMG_2461]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_2462.jpg"
+	thumbURL="thumbs/IMG_2462.jpg"
+	linkURL="images/IMG_2462.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/axelwdoviak/Desktop/Mendoza '18/IMG_2462.JPG">
+    <title><![CDATA[IMG_2462]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_2463.jpg"
+	thumbURL="thumbs/IMG_2463.jpg"
+	linkURL="images/IMG_2463.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/axelwdoviak/Desktop/Mendoza '18/IMG_2463.JPG">
+    <title><![CDATA[IMG_2463]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_2464.jpg"
+	thumbURL="thumbs/IMG_2464.jpg"
+	linkURL="images/IMG_2464.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/axelwdoviak/Desktop/Mendoza '18/IMG_2464.JPG">
+    <title><![CDATA[IMG_2464]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_2465.jpg"
+	thumbURL="thumbs/IMG_2465.jpg"
+	linkURL="images/IMG_2465.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/axelwdoviak/Desktop/Mendoza '18/IMG_2465.JPG">
+    <title><![CDATA[IMG_2465]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_2466.jpg"
+	thumbURL="thumbs/IMG_2466.jpg"
+	linkURL="images/IMG_2466.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/axelwdoviak/Desktop/Mendoza '18/IMG_2466.JPG">
+    <title><![CDATA[IMG_2466]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_2467.jpg"
+	thumbURL="thumbs/IMG_2467.jpg"
+	linkURL="images/IMG_2467.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/axelwdoviak/Desktop/Mendoza '18/IMG_2467.JPG">
+    <title><![CDATA[IMG_2467]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
