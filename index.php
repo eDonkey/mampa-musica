@@ -56,19 +56,20 @@ $resultfechasQuery = mysqli_query($link, $fechasQuery);
 while ($row = mysqli_fetch_array($resultfechasQuery)) {
 ?>
       <script>
-          $('#newslink').click(function(e){
-            //e.preventDefault();//in this way you have no redirect
-            $.ajax({
-                type: 'POST',
-                url: 'clickscounter.php',
-                data: { 
-                    'cat': 'fechas', 
-                    'id': '<?php echo $row['id']; ?>'
-                },
-                success: function(){
-                    alert('success');
-                }
-            });//Make the ajax call
+          $(document).ready(function () {
+              $('#newslink').click(function(e){
+                  $.ajax({
+                      type: 'POST',
+                      url: 'clickscounter.php',
+                      data: { 
+                          'cat': 'fechas', 
+                          'id': '<?php echo $row['id']; ?>'
+                      },
+                      success: function(){
+                          alert('success');
+                      }
+                  });//Make the ajax call
+              });
           });
       </script>
       <a id="newslink" href="<?php echo $row['url']; ?>">
