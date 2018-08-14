@@ -100,9 +100,9 @@ h1, h2, h3, h4, h5, h6 {
     top:40px;
     height: 100px;
     width: 250px;
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    background-color: dimgrey;
+    //border-radius: 15px;
+    //-moz-border-radius: 15px;
+    background-image: url('img/dates_alert');
     display: flex;
     align-items: center;
     justify-content: center;
