@@ -222,7 +222,7 @@ while ($row = mysqli_fetch_array($resultfechasQuery)) {
 Videos Section
     ============================-->
     <?php
-$videos = "SELECT id, video, thumb, title, mm_visible FROM videos WHERE mm_visible=1";
+$videos = "SELECT id, video, thumb, title, mm_visible FROM videos WHERE mm_visible=1 LIMIT $videodisplaylimit";
 $result = mysqli_query($link, $videos);
     ?>
     <section id="videos">
