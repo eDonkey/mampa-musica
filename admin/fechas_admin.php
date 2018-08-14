@@ -1,9 +1,10 @@
 <?php
 include '../lib/mysql/basic.config.mysql.php';
+session_start();
+if ($_SESSION['permissions'] >= "555") {
 if ($_GET['operation'] == "fecha_add" AND $_GET['result'] == "success") {
   echo "Date added correctly to our DB";
 }
-session_start();
 if(!isset($_SESSION['username'])) {
   header("location: index.php");
   exit;
@@ -74,3 +75,8 @@ while ($row = mysqli_fetch_array($result)) {
 </section>
   </body>
 </html>
+<?php 
+} else { 
+    include("forbidden.htm");
+}
+?>

@@ -37,6 +37,7 @@ if(!isset($_SESSION['username'])) {
             <th>Email</th>
             <th>Creado en...</th>
             <th>Ultimo login</th>
+            <th>Permisos</th>
           </tr>
         </thead>
       </table>
@@ -54,6 +55,7 @@ while ($row = mysqli_fetch_array($result)) {
             <td><?php echo $row['email']; ?></td>
             <td><?php echo $row['created_at']; ?></td>
             <td><?php echo $row['last_login']; ?></td>
+            <td><?php echo $row['permissions']; ?></td>
           </tr>
         <?php } ?>
       </tbody>
