@@ -39,6 +39,7 @@ $result = mysqli_query($link, $query);
             <th>URL Del Evento</th>
             <th>Visible desde</th>
             <th>Visible Hasta</th>
+            <th>Clicks</th>
           </tr>
         </thead>
       </table>
@@ -56,6 +57,7 @@ while ($row = mysqli_fetch_array($result)) {
             <td><?php echo $row['url']; ?></td>
             <td><?php echo gmdate("Y-m-d - H:i:s", $row['start_showing']); ?></td>
             <td><?php echo gmdate("Y-m-d - H:i:s   ", $row['end_showing']); ?></td>
+              <td><?php echo $row['clicks']; ?></td>
           </tr>
         <?php } ?>
       </tbody>
