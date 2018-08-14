@@ -21,7 +21,7 @@ if(!isset($_SESSION['username'])) {
         <a href="videos_admin.php" target="adminframe">Videos</a> -- 
         <a href="fechas_admin.php" target="adminframe">Fechas</a>
         <?php if ( $_SESSION['permissions'] >= '755' ) { ?>
-         -- <a href="" target="adminframe">Config</a>
+         -- <a href="config_admin.php" target="adminframe">Config</a>
         <?php } ?>
     </div>
     <br /><br />
