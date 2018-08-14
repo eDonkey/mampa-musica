@@ -71,7 +71,7 @@ while ($row = mysqli_fetch_array($resultfechasQuery)) {
             });//Make the ajax call
           });
       </script>
-      <a class="classofyourlink" href="<?php echo $row['url']; ?>">
+      <a class=".classofyourlink" href="<?php echo $row['url']; ?>">
         <div id="fechas">
             <span id='close' style="  position: absolute;top: 0;right: 0;cursor: pointer;" onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>
                 <img src="img/close.png" border="0" />
