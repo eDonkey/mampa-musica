@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
     font-family: 'Anton', sans-serif;
     font-size: unset;
-    margin-left: 10px;
+    margin-left: 15px;
         
 }
 
@@ -662,19 +662,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Call To Action Section
 --------------------------------*/
-#call-to-action {
+#musica {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
 
-#call-to-action .cta-title {
+#musica .cta-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action .cta-text {
+#musica .cta-text {
   color: #fff;
 }
 
@@ -686,7 +686,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-#call-to-action .cta-btn {
+#musica .cta-btn {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -701,7 +701,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#musica .cta-btn:hover {
   background: #2dc997;
   border: 2px solid #2dc997;
 }
