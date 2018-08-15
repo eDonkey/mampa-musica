@@ -528,13 +528,10 @@ $result = mysqli_query($link, $videos);
     <section id="contact">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Contact</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title">Contacto</h3>
+          <p class="section-description">Aqui podran encontrar los distintos modos de contacto</p>
         </div>
       </div>
-
-      <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
-
       <div class="container wow fadeInUp">
         <div class="row justify-content-center">
 
