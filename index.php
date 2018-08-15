@@ -115,6 +115,8 @@ while ($row = mysqli_fetch_array($resultfechasQuery)) {
           <li><a href="#team">Familia</a></li>
           <li><a href="#about">Noticias</a></li>
           <li><a href="#videos">Videos</a></li>
+        <li><a href="#call-to-action">Musica</a></li>
+<!--
           <li class="menu-has-children"><a href="">Multimedia</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -123,6 +125,7 @@ while ($row = mysqli_fetch_array($resultfechasQuery)) {
               <li><a href="#">Drop Down 5</a></li>
             </ul>
         </li>
+-->
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -253,8 +256,7 @@ $result = mysqli_query($link, $videos);
       <div class="container wow fadeIn">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Call To Action</h3>
-            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/216220403&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#">Call To Action</a>
