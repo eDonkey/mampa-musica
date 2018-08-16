@@ -502,16 +502,15 @@ $result = mysqli_query($link, $videos);
             <div class="member">
               <div class="pic"><a href="https://luchaincandilatta.bandcamp.com/" target="_blank"><img src="img/friends/luciahernandez.jpg" alt=""></a></div>
               <h5>Luciana Hernandez</h5>
-              <div class="social"><!--
+              <div class="social">
                 <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-facebook"></i></a>
                 <a href=""><i class="fa fa-google-plus"></i></a>
-    <a href=""><i class="fa fa-linkedin"></i></a>-->
+    <a href=""><i class="fa fa-linkedin"></i></a>
               </div>
             </div>
           </div>
         </div>
-          -->
         <div class="section-header">
           <h3 class="section-title">Nos Acompa&ntilde;an</h3>
           <p class="section-description2"><hr /></p>
@@ -533,6 +532,7 @@ $result = mysqli_query($link, $videos);
               </div>
             </div>
           </div>
+-->
         </div>
       </div>
     </section><!-- #team -->
