@@ -492,6 +492,7 @@ $result = mysqli_query($link, $videos);
             </div>
           </div>
         </div>
+<!--
         <div class="section-header">
           <h3 class="section-title">Musicos Amigos</h3>
           <p class="section-description">Musicos que se han sumado a nuestro proyectos en presentaciones en vivo o en los estudios</p>
@@ -510,6 +511,7 @@ $result = mysqli_query($link, $videos);
             </div>
           </div>
         </div>
+          -->
         <div class="section-header">
           <h3 class="section-title">Nos Acompa&ntilde;an</h3>
           <p class="section-description2"><hr /></p>
