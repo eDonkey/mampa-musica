@@ -14,7 +14,7 @@ mysqli_set_charset($link, "utf8");
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Mampa Musica</title>
+  <title>Mampa</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -66,6 +66,11 @@ mysqli_set_charset($link, "utf8");
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
+</script>
+    <script>
+  (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+  })(window, document, '_gscq','script','//widgets.getsitecontrol.com/150640/script.js');
 </script>
   <!-- =======================================================
     Theme Name: Regna
@@ -152,6 +157,7 @@ while ($row = mysqli_fetch_array($resultfechasQuery)) {
       <!--<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P8w07AukW0E?controls=0" frameborder="0" allowfullscreen></iframe><br /> -->
       <a href="#team" class="btn-get-started">Conocenos!</a>
  </div>
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmampa.musica&tabs&width=340&height=70&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=78578993725" width="340" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </section><!-- #hero -->
 
   <main id="main">
