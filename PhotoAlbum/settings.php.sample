@@ -1,8 +1,0 @@
-<?php
-\Cloudinary::config(array(
-    'cloud_name' => 'mampa-img-cloud',
-    'api_key' => '647996298922422',
-    'api_secret' => 'GG5z3kh6f-bv2TYbIT08azyh4mA'
-));
-
-R::setup('mysql:host=my_database.mydomain.com;dbname=photo_album', 'username', 'password');
