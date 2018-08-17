@@ -281,8 +281,8 @@
   transition-property: transform;
 }
 .hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
-  -webkit-transform: scale(1.1) rotate(4deg);
-  transform: scale(1.1) rotate(4deg);
+  -webkit-transform: scale(1.1) rotate(14deg);
+  transform: scale(1.1) rotate(14deg);
 }
 
 /* Float */
