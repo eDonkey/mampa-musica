@@ -156,7 +156,7 @@ while ($row = mysqli_fetch_array($resultfechasQuery)) {
       <h2>Banda formada en Buenos Aires, Argentina, que nació como dúo a fines del 2014.<br /><br />Género: #RockFolkUniversal</h2>
       <!--<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P8w07AukW0E?controls=0" frameborder="0" allowfullscreen></iframe><br /> -->
       <a href="#team" class="btn-get-started">Conocenos!</a><br /><br />
-       <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmampa.musica&tabs&width=340&height=70&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=78578993725" width="340" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+       <?php include("socialbar/socialbar.php"); ?>
       </div>
   </section><!-- #hero -->
 
