@@ -15,14 +15,15 @@ if(!isset($_SESSION['username'])) {
   <body>
     <!--<div id="gradient" /> -->
     <div id="admin-top-menu" align="center"><br /><br />
-      Inicio -- 
-        <a href="news_admin.php" target="adminframe">Noticias</a> -- 
-        <a href="users_admin.php" target="adminframe">Usuarios</a> -- 
-        <a href="videos_admin.php" target="adminframe">Videos</a> -- 
-        <a href="fechas_admin.php" target="adminframe">Fechas</a> -- 
+      Inicio --
+        <a href="news_admin.php" target="adminframe">Noticias</a> --
+        <a href="users_admin.php" target="adminframe">Usuarios</a> --
+        <a href="videos_admin.php" target="adminframe">Videos</a> --
+        <a href="fechas_admin.php" target="adminframe">Fechas</a> --
         <a href="http://104.236.175.157/analytics/piwik/index.php?module=Widgetize&action=iframe&moduleToWidgetize=Dashboard&actionToWidgetize=index&idSite=1&period=week&date=yesterday" target="adminframe">Estadisticas</a>
         <?php if ( $_SESSION['permissions'] >= '755' ) { ?>
          -- <a href="config_admin.php" target="adminframe">Config</a>
+         -- <a href="file-browser/index.html" target="adminframe">Fotos</a>
         <?php } ?>
     </div>
     <br /><br />
