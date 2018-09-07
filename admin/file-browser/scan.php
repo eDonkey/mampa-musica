@@ -1,6 +1,6 @@
 <?php
 
-$dir = "../../";
+$dir = "album";
 
 // Run the recursive function
 
