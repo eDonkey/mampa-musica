@@ -10,6 +10,7 @@ $igurl = "https://instagram.com/mampa.musica";
 $scurl = "https://soundcloud.com/mampamusica";
 $yturl = "https://www.youtube.com/channel/UCGpVIjK5wAH-hZT-gCwSPjQ";
 $spurl = "https://www.spotify.com/";
+$showindexvideo = true;
 //777 = superuser
 //775 = admin
 //755 = moderator
