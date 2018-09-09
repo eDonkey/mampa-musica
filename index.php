@@ -154,10 +154,10 @@ while ($row = mysqli_fetch_array($resultfechasQuery)) {
     <div class="hero-container">
       <h1>Bienvenidos a mampa-musica.com</h1>
       <h2>Banda formada en Buenos Aires, Argentina, que nació como dúo a fines del 2014.<br /><br />Género: #RockFolkUniversal</h2>
-       <video width="640" height="480" preload="auto" autoplay>
+       <a href="https://bue.tickethoy.com/entradas-musica/mampa-en-torquato-tasso" target="_blank"></a><video width="640" height="480" preload="auto" autoplay>
            <source src="mm/torcuato-311018.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video> <br />
+        </video></a> <br />
       <a href="#team" class="btn-get-started">Conocenos!</a><br /><br />
        <?php include("socialbar/socialbar.php"); ?>
       </div>
