@@ -111,5 +111,11 @@ h1 {
           <p>Lorem ipsum..</p>
         </div>
       </div>
+<?php
+    foreach(glob('albums/*', GLOB_ONLYDIR) as $dir) {
+    $dir = str_replace('albums/', '', $dir);
+    echo $dir;
+}
+?>
     </body>
   </html>
