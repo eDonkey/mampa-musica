@@ -23,7 +23,7 @@ if(!isset($_SESSION['username'])) {
         <a href="http://104.236.175.157/analytics/piwik/index.php?module=Widgetize&action=iframe&moduleToWidgetize=Dashboard&actionToWidgetize=index&idSite=1&period=week&date=yesterday" target="adminframe">Estadisticas</a>
         <?php if ( $_SESSION['permissions'] >= '755' ) { ?>
          -- <a href="config_admin.php" target="adminframe">Config</a>
-         -- <a href="file-browser/index.html" target="adminframe">Fotos</a>
+         -- <a href="fotosmanager/elfinder.html" target="adminframe">Fotos</a>
         <?php } ?>
     </div>
     <br /><br />
