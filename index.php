@@ -154,7 +154,7 @@ while ($row = mysqli_fetch_array($resultfechasQuery)) {
     <div class="hero-container">
       <h1>Bienvenidos a mampa-musica.com</h1>
       <h2>Banda formada en Buenos Aires, Argentina, que nació como dúo a fines del 2014.<br /><br />Género: #RockFolkUniversal</h2>
-        <?php if ($showindexvideo == 1 ) { ?>
+        <?php if ($showindexvideo == true ) { ?>
        <a href="https://bue.tickethoy.com/entradas-musica/mampa-en-torquato-tasso" target="_blank">
            <video width="640" height="480" preload="auto" autoplay>
            <source src="mm/torcuato-311018.mp4" type="video/mp4">
