@@ -3,7 +3,7 @@
 error_reporting(0); // Set E_ALL for debuging
 
 // // To Enable(true) handling of PostScript files by ImageMagick
-// // It is disabled by default as a countermeasure 
+// // It is disabled by default as a countermeasure
 // // of Ghostscript multiple -dSAFER sandbox bypass vulnerabilities
 // // see https://www.kb.cert.org/vuls/id/332928
 // define('ELFINDER_IMAGEMAGICK_PS', true);
@@ -117,7 +117,7 @@ function access($attr, $path, $data, $volume, $isDir, $relpath) {
 // Documentation for connector options:
 // https://github.com/Studio-42/elFinder/wiki/Connector-configuration-options
 $opts = array(
-	// 'debug' => true,
+	'debug' => true,
 	'roots' => array(
 		// Items volume
 		array(
@@ -149,4 +149,3 @@ $opts = array(
 // run elFinder
 $connector = new elFinderConnector(new elFinder($opts));
 $connector->run();
-
