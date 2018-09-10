@@ -112,8 +112,8 @@ h1 {
         </div>
       </div>
 <?php
-    foreach(glob('albums/*', GLOB_ONLYDIR) as $dir) {
-    $dir = str_replace('albums/', '', $dir);
+    foreach(glob('/home/photos/*', GLOB_ONLYDIR) as $dir) {
+    $dir = str_replace('/home/photos/', '', $dir);
     echo $dir;
 }
 ?>
