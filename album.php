@@ -5,6 +5,6 @@
     <title></title>
   </head>
   <body>
-    Estas seguro que desea sincronizar las fotos con su album manager?<br /><a href="albumsync.php">Ejecutar</a>
+    Estas seguro que desea sincronizar las fotos con su album manager?<br /><a href="admin/albumsync.php">Ejecutar</a>
   </body>
 </html>
